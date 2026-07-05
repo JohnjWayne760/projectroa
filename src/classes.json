@@ -1,0 +1,204 @@
+{
+  "portador": [
+    {
+      "name": "Aventurero - Espada y Escudo",
+      "prefix": "Adventurer"
+    },
+    {
+      "name": "Caballero - Espada Larga",
+      "prefix": "Knight"
+    },
+    {
+      "name": "Sacerdote - Libro",
+      "prefix": "Priest"
+    },
+    {
+      "name": "Hechizero - Baculo",
+      "prefix": "Sorcerer"
+    },
+    {
+      "name": "Brujo - Cetro",
+      "prefix": "Witcher"
+    },
+    {
+      "name": "Artista Marcial - Nudilleras",
+      "prefix": "Fighter"
+    },
+    {
+      "name": "Cazador - Arco y Flecha",
+      "prefix": "Hunter"
+    },
+    {
+      "name": "Ladrón - Cuchillo y Bombas",
+      "prefix": "Thief"
+    },
+    {
+      "name": "Bardo - Instrumento",
+      "prefix": "Bard"
+    },
+    {
+      "name": "Paladín - Maza o Lanza",
+      "prefix": "Paladin"
+    },
+    {
+      "name": "Pirata - Sable y Revolver",
+      "prefix": "Pirate"
+    },
+    {
+      "name": "Vikingo - Hacha",
+      "prefix": "Viking"
+    }
+  ],
+  "avatar": [
+    {
+      "name": "Héroe Legendario",
+      "prefix": "Nord",
+      "hasGenderVariants": true
+    },
+    {
+      "name": "Brujo Antiguo",
+      "prefix": "Witch",
+      "hasGenderVariants": true
+    },
+    {
+      "name": "No-Muerto",
+      "prefix": "Deathsoldier",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Demonio",
+      "prefix": "Demogargoyle",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Dragón",
+      "prefix": "Dragon",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Ent",
+      "prefix": "Ent",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Hada del Bosque",
+      "prefix": "Fairy",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Goblin",
+      "prefix": "Goblin",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Infernal",
+      "prefix": "Infernal",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Caballero Legendario",
+      "prefix": "Knight",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Kobold",
+      "prefix": "Kobold",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Ente Magico",
+      "prefix": "Magicrock",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Criatura Marina",
+      "prefix": "Marine",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Asechador de la Noche",
+      "prefix": "Nightcrawler",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Oceanico",
+      "prefix": "Oceanic",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Orco Guerrero",
+      "prefix": "Orc",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Reptiliano",
+      "prefix": "Reptilian",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Insecto: Aracnico",
+      "prefix": "Spider",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Wyverno",
+      "prefix": "Wyvern",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Murcielago",
+      "prefix": "Cavemanner",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Ciclope/Gigante",
+      "prefix": "Cyclops",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Insecto: Avispa/Abeja",
+      "prefix": "Hive",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Slime",
+      "prefix": "Lime",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Monstruo Mimico",
+      "prefix": "Mimic",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Minotauro / Bestia Guardiana",
+      "prefix": "Minotaur",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Fungico",
+      "prefix": "Mushmonster",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Monstruo Planta",
+      "prefix": "Plant",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Monstruo Desertico",
+      "prefix": "Scorpion",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Entes de Sombra",
+      "prefix": "Shadows",
+      "hasGenderVariants": false
+    },
+    {
+      "name": "Monstruo Reptil",
+      "prefix": "Snake",
+      "hasGenderVariants": false
+    }
+  ]
+}

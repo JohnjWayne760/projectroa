@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-lora: "Lora", serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-lora);
+    background: #000;
+    color: #e5e7eb;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar personalizado */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b89346;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  /* Estilo para los paneles y bordes metálicos/dorados */
+  .medieval-border {
+    border: 2px solid #b89346;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7), inset 0 0 20px rgba(0, 0, 0, 0.5);
+    background: rgba(15, 15, 20, 0.85);
+    backdrop-filter: blur(8px);
+  }
+
+  .gold-text {
+    color: #d4af37;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  /* Inputs estilizados */
+  .medieval-input {
+    @apply w-full p-2 rounded transition-all duration-300;
+    background: rgba(30, 30, 35, 0.8);
+    border: 1px solid #6b5c32;
+    color: #f3f4f6;
+  }
+  
+  .medieval-input:focus {
+    @apply outline-none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+  }
+
+  /* Pestañas */
+  .tab-btn {
+    @apply relative overflow-hidden flex-1 py-4 font-cinzel text-lg md:text-xl font-bold uppercase text-gray-400 hover:text-white transition-all duration-300;
+  }
+  
+  .tab-btn.active.red-theme {
+    background: linear-gradient(to bottom, #7a1010, #3a0000);
+    border-color: #ff4d4d;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+    @apply text-white;
+  }
+  
+  .tab-btn.active.blue-theme {
+    background: linear-gradient(to bottom, #102a7a, #000a3a);
+    border-color: #4da6ff;
+    box-shadow: 0 0 10px rgba(77, 166, 255, 0.5);
+    @apply text-white;
+  }
+
+  /* Contenedores de imagen */
+  .image-upload-wrapper {
+    @apply rounded-lg flex flex-col items-center justify-center relative overflow-hidden cursor-pointer transition-all duration-300;
+    border: 2px dashed #6b5c32;
+    background: rgba(0,0,0,0.5);
+  }
+  
+  .image-upload-wrapper:hover {
+    border-color: #d4af37;
+    background: rgba(40,40,40,0.7);
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
